@@ -1,0 +1,11 @@
+reports/ 
+#Ignore all csv and png files 
+*.csv
+*.png
+
+#Exclude the following files
+!baseline_model_results.csv
+!baseline_model_report.md 
+
+#Tracking the best-performing model confusion matrix
+!best_model_confusion_matrix.png
