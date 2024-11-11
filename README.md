@@ -10,3 +10,8 @@ To tackle this task, first I created a script named result_comparison.sh which p
 3. Extracts key metrics for the best model (Precision, Recall, F1-Score, ROC-AUC). 
 4. Generates a Markdown report (baseline_model_report.md) with model details and a link to the corresponding confusion matrix image of the model.
 
+## Script explanation
+"" Bash
+read -p "Enter path to the csv file(e.g, reports/baseline_model_results.csv): " model_csv
+""
+This code prompts the user for a csv file with that example directory and saves it in the model_csv variable
