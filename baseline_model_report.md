@@ -10,4 +10,5 @@
 - POC-AUC: 0.59
 
 ### Confusion Matrix
-![Confusion Matrix](reports/.png)
+![Confusion Matrix](reports/datav1.6_RandomForestClassifier_confusion_matrix.png)
+
